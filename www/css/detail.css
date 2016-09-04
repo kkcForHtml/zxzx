@@ -1,0 +1,100 @@
+body, html {
+  display: -webkit-box;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical; }
+
+footer, header {
+  -webkit-box-flex: 1;
+  -webkit-box-flex-group: 2; }
+
+header {
+  height: .88rem;
+  line-height: .88rem;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  font-size: .38rem;
+  background: #e4366b; }
+  header a {
+    height: .35rem;
+    width: .52rem;
+    background: url(../img/bg_01.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    margin: auto .2rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+
+section {
+  -webkit-box-flex: 1;
+  -webkit-box-flex-group: 1; }
+  section ul {
+    width: 5.6rem;
+    margin: .38rem auto;
+    border-radius: .15rem;
+    border: .02rem solid #dedede;
+    box-sizing: border-box;
+    text-align: left; }
+    section ul li {
+      box-sizing: border-box;
+      width: 100%;
+      height: .9rem;
+      line-height: .9rem;
+      padding-left: .28rem;
+      font-size: .32rem;
+      color: #000;
+      position: relative; }
+      section ul li span {
+        position: absolute;
+        height: .29rem;
+        width: .23rem;
+        background: url(../img/bg_02.png) no-repeat;
+        background-size: 100% 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto .26rem; }
+    section ul li + li {
+      border-top: .02rem solid #DEDEDE; }
+  section .container_bottom {
+    margin: -.14rem auto; }
+  section #btn {
+    display: block;
+    margin: .38rem auto;
+    width: 5.6rem;
+    height: .9rem;
+    background: #e83a6f;
+    text-align: center;
+    font-size: .38rem;
+    line-height: .9rem;
+    border-radius: .15rem;
+    border: 0;
+    color: #fff; }
+
+footer {
+  height: 1rem;
+  background: #484850;
+  position: relative;
+  display: -webkit-box; }
+  footer dl {
+    -webkit-box-flex: 1;
+    text-align: center;
+    color: #fff;
+    width: .1rem; }
+    footer dl dt {
+      font-size: .48rem; }
+    footer dl dd {
+      font-size: .24rem; }
+  footer span {
+    display: block;
+    width: 20%;
+    height: 2px;
+    background: #d71110;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    /*transform: translateX(100px);*/ }

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>走秀网</title>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />    
+    <link rel="stylesheet" type="text/css" href="css/index.css">   
+</head>
+<body>
+    <div class="swiper-container" id="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide odiv1">
+               <div class="txtflex base ani" swiper-animate-effect = 'play'>全新改版</div>
+                <div class="txtg base ani" swiper-animate-effect = 'playg'>更舒适，更优雅</div>
+                <div class="txtd base ani" swiper-animate-effect = 'duo'>多联系，不孤单</div>
+                <div class="txtz base ani" swiper-animate-effect = 'zou'><em>走秀</em><i>与</i>你相伴</div> 
+            </div>
+            <div class="swiper-slide odiv2">
+                <div class="arrow base ani" swiper-animate-effect = 'arrowp'><img src="images/arrow.png"></div>
+                <div class="shopping base ani" swiper-animate-effect = 'shoppingp'>放入购物袋</div>
+                <div class="clock base ani" swiper-animate-effect = 'clockp'><img src="images/clock.png"></div>
+                <div class="man base " swiper-animate-effect = 'manp' style="display:none;"><img src="images/man.png"></div>
+            </div>
+            <div class="swiper-slide odiv3">
+            	<div class="goods base ani" swiper-animate-effect = 'lightSpeedIn'>走秀网商品</div>
+            	<div class="git base ani" swiper-animate-effect = 'shake' swiper-animate-delay="1s"><img src="images/gif.png"/></div>
+            	<div class="new base ani" swiper-animate-effect = 'rotateInDownLeft' swiper-animate-delay="2s"><img src="images/new.png"/></div>
+            </div>
+            <div class="swiper-slide odiv4">
+            	<div class="arrow1 base ani" swiper-animate-effect = 'arrow1p'><img src="images/arrow1.png"/></div>
+            	<div class="go base">NOW,开始走秀购物之行......</div>
+            	<div class="now base ani" swiper-animate-effect = 'nowp'><a href="html/shouye.html"><img src="images/now.jpg"/></a></div>
+            </div>
+        </div>
+        <div class="swiper-pagination" id="swiper-pagination"></div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src = "js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+  font-family: "微软雅黑", "Microsoft yahei"; }
+
+body, h1, h2, h3, h4, h5, h6, blockquote, ol, ul, dl, dd, p, textarea, input, select, option, form {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f5f4f0;
+  -webkit-tap-highlight-color: transparent; }
+
+ol, ul, textarea, input, option, th, td {
+  padding: 0; }
+
+.page {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+ul, ol {
+  list-style-type: none; }
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden; }
+
+/* ios默认文本框阴影 */
+input[type=text], textarea {
+  -webkit-appearance: none; }
+
+/* 低版本安卓文本框层级问题 */
+input:focus {
+  -webkit-user-modify: read-write-plaintext-only; }
+
+fieldset, img {
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+a, textarea, input {
+  outline: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+textarea {
+  overflow: auto;
+  resize: none; }
+
+button, input {
+  outline: none; }
+
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 75% !important;
+    /* 12÷16=73.4% */ } }
+
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 87.89063% !important;
+    /* 14.0625÷16=73.2% */ } }
+
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 97.03% !important;
+    /* 15.525÷16=94% */ } }
+
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 112.5% !important;
+    /* 18÷16=94% */ } }
+
+@media only screen and (min-width: 560px) {
+  html {
+    font-size: 131.25% !important;
+    /* 21÷16=109% */ } }
+
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 150% !important;
+    /* 24÷16=125% */ } }
+
+@media only screen and (min-width: 720px) {
+  html {
+    font-size: 168.75% !important;
+    /* 27÷16=146.43% */ } }
+
+@media only screen and (min-width: 750px) {
+  html {
+    font-size: 175.78125% !important;
+    /* 28.125÷16=146.43% */ } }
+
+@media only screen and (min-width: 800px) {
+  html {
+    font-size: 187.5% !important;
+    /* 30÷16=146.43% */ } }
+
+@media only screen and (min-width: 960px) {
+  html {
+    font-size: 225% !important;
+    /* 36÷16=146.43% */ } }
+
+footer {
+  height: 4.16667rem;
+  background: #484850;
+  position: absolute;
+  display: -webkit-box;
+  bottom: 0;
+  width: 100%;
+  z-index: 99; }
+  footer dl {
+    -webkit-box-flex: 1;
+    text-align: center;
+    color: #fff;
+    width: .1rem;
+    position: relative; }
+    footer dl a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #fff; }
+      footer dl a dt {
+        font-size: 2rem; }
+      footer dl a dd {
+        font-size: 1rem; }
+  footer span {
+    display: block;
+    width: 20%;
+    height: 2px;
+    background: #d71110;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    /*transform: translateX(100px);*/ }
+
+#shop {
+  position: absolute;
+  top: 0.25rem;
+  right: 1.04167rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  border-radius: 0.625rem;
+  background: #FF0000;
+  color: #fff;
+  z-index: 100;
+  font-size: 1rem;
+  display: none; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+header {
+  height: 3.66667rem;
+  line-height: 3.66667rem;
+  text-align: center;
+  font-size: 1.58333rem;
+  line-height: 3.66667rem;
+  background: #a90506;
+  margin-bottom: 0.83333rem;
+  color: #fff; }
+  header a {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    right: 0.83333rem;
+    top: 0.83333rem;
+    width: 5rem;
+    height: 2.08333rem;
+    border-radius: 6px;
+    box-shadow: 0 0 1px #000;
+    background: #b40a0a;
+    color: #fff;
+    line-height: 2.08333rem;
+    font-size: 1rem; }
+
+section {
+  border: 1px solid #000;
+  box-sizing: border-box;
+  overflow: hidden; }
+  section div {
+    width: 33.3%;
+    height: 10.41667rem;
+    float: left;
+    background: #09c;
+    line-height: 10.41667rem;
+    font-size: 2.08333rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box; }
+  section .random {
+    background: -webkit-radial-gradient(#fff, #000);
+    cursor: pointer;
+    color: #fff;
+    font-size: 2.5rem; }
+  section .active {
+    background: #f00; }
+  section .disable {
+    pointer-events: none; }
